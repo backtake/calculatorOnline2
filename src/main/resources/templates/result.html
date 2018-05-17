@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>CalculatorOnline</title>
+</head>
+<body>
+    <h1 th:text="'Result: ' + ${result}"></h1>
+    <form method="get" action="/calculator">
+        <input type="submit" value="Reset">
+    </form>
+</body>
+</html>
